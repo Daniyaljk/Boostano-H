@@ -1,0 +1,2 @@
+# Boostano-H
+site boostano
