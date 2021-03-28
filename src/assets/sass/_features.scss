@@ -1,0 +1,131 @@
+
+$background-color-1: #f6f7f8;
+
+body{
+    background-color: #f6f7f8;
+}
+.body-features{
+    background-color: $background-color-1;
+    h1{
+        margin-top: 0px;
+    } 
+    .deliver{
+        padding: 7px;
+        text-align: center;
+    }
+    .box-deliver{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        border: 1px solid #d8c2c2;
+        margin-left: 15px;
+    }
+    div.row{
+        margin-top: 50px; 
+    }
+
+
+    .control-sending{
+        img{
+            width: 50%;
+        }
+        .features-list-1{
+            svg{
+                width :35px;
+                margin-right: 10px;
+            }
+            padding: 40px;
+            text-align: left;
+        }
+        
+    }
+
+
+
+    .part-box-deliver{
+        margin-top: -40px;
+    }
+
+    .all-features{
+        padding: 20px;
+        ul li{
+             a{
+            color: #111;
+            font-size: 20px;
+             }
+             img{
+                margin-right: 25px;
+             }
+        }
+    }
+    .ready-signup{
+        background-image: url('../img/cloud.png');
+        width: 100%;
+        height: 380px;
+        text-align: center;
+        h3{
+            margin-top: 160px;
+        }
+    }
+
+    .description-email{
+        background-color:#edf1f5;
+        .features-list-1{
+            svg{
+                width :35px;
+                margin-right: 10px;
+            }
+            padding: 40px;
+            text-align: left;
+        }
+        h2{
+            margin-top: 40px;
+        }
+        p.description{
+            margin-top: 30px;
+            padding: 30px;
+             }
+            
+        
+        .features-list{
+            margin-bottom: 4px;
+            svg{
+                width: 40px;
+            }
+            
+            h3{
+                width: 330px;
+                margin-top: 5px;
+                display: contents;
+            }
+            p{
+                margin-top: 10px;
+            }
+        }
+        
+        img.description-img{
+            width: 50%;
+            height: 100%;
+            
+        }
+    }
+}   
+
+
+@media screen and (max-width:576px){
+    .body-features .control-sending img {
+        width: 90%;
+    }
+    .body-features .description-email img.description-img {
+        width: 80%;
+    }
+    .all-features{
+    ul li img{
+        width: 30px;
+        margin-top: 15px;
+        margin-bottom: 16px;
+          }
+    
+    }
+}

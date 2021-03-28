@@ -1,0 +1,133 @@
+$background-color-header: #f6f7f8;
+$background-color-pricingcard: white;
+
+$padding-body:0px;
+.body{
+    background-color: $background-color-header;
+}
+.body-pricing{
+    background-color: $background-color-header ;
+    width: 100%;
+    padding:$padding-body;
+
+
+
+    .pricing-title{
+         .button-signup-title{
+            width: 170px;
+        }
+
+    }
+    @media screen and ( max-width : 992px ) {
+        .table1{
+            width: 500px;
+        } 
+    }
+    @media screen and ( max-width : 768px ) {
+        .table1{
+            width: 400px;
+        }
+    }
+    @media screen and ( max-width : 576px ) {
+        .table1{
+            width: 300px;
+        }
+        .pricing-card{
+            width: 85%;
+            margin-left: 50px;
+        }
+    }
+    .ready-signup{
+        background-image: url('../img/cloud.png');
+        width: 100%;
+        height: 380px;
+        text-align: center;
+        margin-top: -110px;
+        h3{
+            margin-top: 160px;
+        }
+    }
+ table{
+     width: 700px;
+     thead tr{
+        vertical-align: middle;
+      }
+     }
+     div.accordion{
+        margin-top: 80px;
+        width: 700px; 
+        h2 button{
+            font-size: 20px;
+                 }
+
+     }
+   
+ }
+
+ 
+
+
+    .pricing-card{
+        width: 23em;
+        background-color:$background-color-pricingcard;
+        border-radius: 40px;
+        margin: 20px;
+       
+        .email-numeric{
+            font-size: 24px;
+        font-weight: bold;
+        margin-top: -10px;
+           }
+        .extraemail-numeric{
+               svg{
+                width: 17px;
+               }
+                 margin-top: -10px;
+                 font-size: 24px;
+                 font-weight: bold;
+        }
+        .title-premium{
+            color: #939393;
+            svg{
+                width: 30px;
+            }
+        }
+        .list-features li.yes {
+            background-image: url(./../img/icons/tick-green.svg);
+            list-style-type: none;
+            background-repeat: no-repeat;
+            padding-left: 1.75rem;
+            background-size: 21px;
+            font-size: 1rem;
+            text-align: left;
+            margin: 5px 0;
+            margin-top: 0px;
+        }
+        .list-features li.no {
+            background-image: url(./../img/icons/no-grey.svg);
+            list-style-type: none;
+            background-repeat: no-repeat;
+            padding-left: 1.75rem;
+            background-size: 21px;
+            font-size: 1rem;
+            text-align: left;
+            margin: 5px 0;
+            margin-top: 0px;
+            color: darkgrey;
+        }
+    }
+
+
+    @media screen and (max-width :576px){
+        .card-body{
+            h4{
+                margin-top: 0px;
+            }
+        }
+        .pricing-accordion{
+            padding: 20px;
+        }
+        .pricing-card .extraemail-numeric {
+            margin-top: 29px;
+        }
+    }

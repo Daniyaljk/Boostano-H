@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- custom css -->
+    <link type="text/css" rel="stylesheet" href=".././src/assets/css/main.css"/>
+    
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- bootstarp js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div>
+        <!-- Header -->
+        <nav class="header  shadow-lg">
+            <div class="d-flex  justify-content-center ">
+                <!-- sidebar -->
+                <div class="sidebar bg-Success">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Menu</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg>
+                </div>
+                <!-- logo -->
+                <div class="logo">
+                    <img src=".././src/assets/img/logo/logo.svg">
+                </div>
+            </div>
+        </nav>
+       <!-- sidebar -->
+       <div id="sidebarmenu" class="bg-white">
+           <div class="p-3">
+              <div href="/" class="d-flex justify-content-center pb-1 mb-3 border-bottom">
+                <p class="fs-5 fw-bold">Boostano</p>
+              </div>
+              <ul class="list-unstyled ps-0">
+                <li class="mb-3">
+                    <a href="#" class="text-decoration-none text-muted">
+                        pricing
+                    </a>
+                </li>
+                <li>
+                    <a href="./features.html" class="text-decoration-none text-muted">
+                        features
+                    </a>
+                </li>
+              </ul>
+           </div>
+       </div>
+       <!-- /sidebar -->
+       <!-- body -->
+       <div class="body-pricing">
+         <!-- pricing title -->
+         <div class="pricing-title mb-4">
+           <br />
+           <br />
+           <h1 class="text-center">
+             pricing
+           </h3>
+           <p class="text-center text-muted p-4">
+            Kiss long-term commitments goodbye. Straightforward and fair pricing means that <br />you only pay for what you need.
+           </p>
+           <div class="text-center">
+            <a href="#" class="btn btn-primary button-signup-title">
+              sign up free
+            </a>
+           </div>
+         </div>
+         <!-- /pricing title -->
+         <!-- pricing card -->
+         <div class="row justify-content-center w-100 ">
+           <!-- card 1 -->
+           <div class="pricing-card col-xl-5 col-lg-6 col-md-10 card shadow-lg">
+             <div class="card-body">
+              <h4 class="card-title text-center mt-lg-4 mb-4">
+                Free
+              </h4>
+              <p class="card-text text-center text-muted mb-4">
+                Try us out! Get 12,000 free emails per month, then only pay for what you send.
+              </p>
+              <h1 class="text-center mb-3">
+                Free
+              </h1>
+              <div class="row">
+                <div class="col-6">
+                  <p class="text-center text-muted">
+                    emails per month
+                  </p>
+                  <p class="text-center email-numeric">
+                   12,000
+                  </p>
+                </div>
+                <div class="col-6">
+                  <p class="text-center text-muted">
+                    extra emails
+                  </p>
+                  <p class="text-center extraemail-numeric">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Logo Euro</title><path d="M231.8 272v-48H376l8-48H231.8v-8.12c0-38.69 16.47-62.56 87.18-62.56 28.89 0 61.45 2.69 102.5 9.42l10.52-70A508.54 508.54 0 00315.46 32C189.26 32 135 76.4 135 158.46V176H80v48h55v48H80v48h55v33.54C135 435.6 189.23 480 315.43 480a507.76 507.76 0 00116.44-12.78l-10.58-70c-41.05 6.73-73.46 9.42-102.35 9.42-70.7 0-87.14-20.18-87.14-67.94V320h128.47l7.87-48z"/></svg>
+                    1/100
+                   </p>
+                </div>
+              </div>
+              <!-- list-card -->
+              <ul class="list-features">
+                <li class="yes">Email API, SMTP relay, webhooks</li>
+                <li class="yes">Suppression management</li>
+                <li class="yes">Email tracking & Analytics</li>
+                <li class="yes">Drag & drop email builder</li>
+                <li class="yes">File manager</li>
+                <li class="yes">24/7 email support</li>
+                <li class="no">Multiple sending domains</li>
+                <li class="no">24/7 chat support</li>
+                <li class="no">Deliverability consultation</li>
+                <li class="no">User management</li>
+              </ul>
+              <!-- /list-card -->
+              <!-- button sign up free -->
+              <div class="d-grid">
+                <a href="#" class="btn btn-primary rounded">
+                  sign up free
+                </a>
+              </div>
+              <!-- /button sign up free -->
+             </div>
+           </div>
+           <!-- /card 1 -->
+           <!-- card 2 -->
+           <div class="pricing-card col-xl-5 col-lg-6 col-md-10 card shadow-lg">
+            <div class="card-body">
+              <h4 class="card-title text-center mt-4 mb-4">
+                Premium
+              </h4>
+              <p class="card-text text-center text-muted mb-4">
+                Take ownership of your sending to maximize your email delivery.
+              </p>
+              <h1 class="text-center mb-3 title-premium">
+                €
+                <span style="color:black;">
+                  1
+                </span>
+                /month
+              </h1>
+
+                     <!-- range -->
+                     <div class="d-grid">
+                       <input type="range" class="form-range" />
+                     </div>
+
+
+                     <div class="row" style="margin-top: 30px;">
+                      <div class="col-6">
+                        <p class="text-center text-muted">
+                          emails per month
+                        </p>
+                        <p class="text-center email-numeric">
+                         12,000
+                        </p>
+                      </div>
+                      <div class="col-6">
+                        <p class="text-center text-muted">
+                          extra emails
+                        </p>
+                        <p class="text-center extraemail-numeric">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Logo Euro</title><path d="M231.8 272v-48H376l8-48H231.8v-8.12c0-38.69 16.47-62.56 87.18-62.56 28.89 0 61.45 2.69 102.5 9.42l10.52-70A508.54 508.54 0 00315.46 32C189.26 32 135 76.4 135 158.46V176H80v48h55v48H80v48h55v33.54C135 435.6 189.23 480 315.43 480a507.76 507.76 0 00116.44-12.78l-10.58-70c-41.05 6.73-73.46 9.42-102.35 9.42-70.7 0-87.14-20.18-87.14-67.94V320h128.47l7.87-48z"/></svg>
+                          1,00 /100
+                         </p>
+                      </div>
+                    </div>
+                    <!-- /range -->
+                         <!-- list-card -->
+                         <ul class="list-features">
+                           <li class="yes">Email API, SMTP relay, webhooks</li>
+                           <li class="yes">Suppression management</li>
+                           <li class="yes">Email tracking & Analytics</li>
+                           <li class="yes">Drag & drop email builder</li>
+                           <li class="yes">File manager</li>
+                           <li class="yes">24/7 email support</li>
+                           <li class="yes">Multiple sending domains</li>
+                           <li class="yes">24/7 chat support</li>
+                           <li class="yes">Deliverability consultation</li>
+                           <li class="yes">User management</li>
+                         </ul>
+                         <!-- /list-card -->
+                          <!-- button sign up free -->
+                          <div class="d-grid">
+                            <a href="#" class="btn btn-primary rounded">
+                              sign up free
+                            </a>
+                          </div>
+                          <!-- /button sign up free -->
+              </div>
+              <!-- /card 2 -->
+          </div>
+         </div>
+          <!-- /pricing card -->
+          <!-- pricing table -->
+              <div class="d-flex  justify-content-center">
+                
+                  <table class="table table-striped table-bordered m-0 table1">
+                    <thead>
+                      <tr class="text-center">
+                        <th scope="col">Emails per Mounth</th>
+                        <th scope="col">Boostano</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="text-center">
+                        <td>5,000</td>
+                        <td>Free</td>
+                      </tr>
+                      <tr class="text-center">
+                        <td>10,000</td>
+                        <td>€1</td>
+                      </tr>
+                      <tr class="text-center">
+                        <td>100,000</td>
+                        <td>€10</td>
+                      </tr>
+                      <tr class="text-center">
+                        <td>1,000,000</td>
+                        <td>€100</td>
+                      </tr>
+                      <tr class="text-center">
+                        <td>10,000,000</td>
+                        <td>€1000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                
+
+              </div>
+          <!-- /pricing table -->
+          <!-- pricing accordion -->
+          <div class="d-flex justify-content-center pricing-accordion">
+            <div class="accordion">
+              <!-- item 1 -->
+              <div class="accordion-item" id="accordianforcomment">
+                <h2 class="accordion-header" id="headingOne">
+                  <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    How does the Free plan work?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordianforcomment">
+                  <div class="accordion-body">
+                    <p>
+                       Once your account is verified, you can upgrade to a Free plan. This plan lets you send up to 12,000 emails per month for free! 
+  
+                      It’s easy to add the Free plan at your Plan and billing page. Then enter your organization’s name and credit card details to complete your upgrade.
+                      
+                      If you send more than 12,000 emails per month, the cost of additional emails is $1.00 per 1,000 emails. The number of emails that you send automatically resets every 30 days.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- /item 1 -->
+              <!-- item 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header"  id="headingTwo">
+                  <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    Why do we need your credit card details for the Free plan?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordianforcomment">
+                  <div class="accordion-body">
+                    <p>
+                      As you start increasing your sendings with MailerSend, you might exceed the quota of 12,000 emails per month included in the Free plan. Since additional emails cost $1.00 per 1,000 emails, a payment method is required.
+                    </p>
+                   </div>
+                </div>
+              </div>
+              <!-- /item 2 -->
+              <!-- item 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThird" aria-expanded="true" aria-controls="collapseThird">
+                    Can I try MailerSend without adding my credit card details?
+                  </button>
+                </h2>
+                <div id="collapseThird" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordianforcomment">
+                  <div class="accordion-body">
+                    <p>
+                      Yes, you can! Once your account is verified, you can try all the features of the Free plan and send up to 100 emails per month with a Trial plan.
+                    </p>
+                    <p>
+                      If you wish to send more emails, upgrade to a Free plan that lets you send 12,000 emails per month.
+                    </p>
+                   </div>
+                </div>
+              </div>
+              <!-- /item 3 -->
+              <!-- item 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFourth" aria-expanded="true" aria-controls="collapseFourth">
+                    How does the Premium plan work?
+                  </button>
+                </h2>
+                <div id="collapseFourth" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordianforcomment">
+                  <div class="accordion-body">
+                    <p>
+                      Once your account is verified, pick a premium plan to match the number of emails that you send every month. Save money as you send more emails!&nbsp;
+                    </p>
+                    <p>
+                      In addition to all the features of the Free plan, you also enjoy multiple sending domains, 14 days of log retention, live chat support, expert deliverability consultation, and easy user management.
+                    </p>
+                    <p>
+                      Order a premium plan by choosing a monthly plan at your <strong>Plan and billing page.</strong> Then enter your organization’s name and credit card details to complete your purchase.
+                    </p>
+                    <p>
+                      If you exceed the monthly quota of your plan, each plan has additional costs per 1,000 emails. The number of emails that you send automatically resets every 30 days.
+                    </p>
+                   </div>
+                </div>
+              </div>
+              <!-- /item 4 -->
+            </div>
+          </div>
+          <!-- /pricing accordion -->
+         <!-- ready to sign up -->
+            <div class="d-flex justify-content-center">
+              <section class="ready-signup">
+                <h3 class="text-center">Ready to get started?</h3>
+                <h4 class="text-center">30,000 emails free for first 30 days.</h3>
+                <p class="text-center">Then 100/day free forever.</p>
+                <a class="btn btn-outline-warning" href="#">sign up </a>
+              </section>
+            </div>
+         <!-- /ready to sign up -->
+         <!-- footer -->
+           <footer>
+
+           </footer>
+         <!-- /footer -->
+       </div>   
+      <!-- /body -->
+    </div>
+    <!-- scripts -->
+    
+    <script>
+        $(document).ready(function(){
+            $('.sidebar svg').click(function(){
+                var sidebarmenu1 = $('#sidebarmenu');
+                sidebarmenu1.show();
+                sidebarmenu1.animate({
+                    left : '0'
+                },500);
+                $('body').append('<div class="back-container"></div>');
+                $('.back-container').click(function(){
+                    var sidebarmenu1 = $('#sidebarmenu');
+                    sidebarmenu1.animate({
+                        left:'-220px'
+                    },400,function(){
+                        sidebarmenu1.hide();
+                    });
+                    $(this).remove();
+                })
+            })
+        })
+    </script>
+    
+</body>
+</html>

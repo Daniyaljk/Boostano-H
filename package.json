@@ -1,0 +1,12 @@
+{
+  "name": "Boostano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-sass -o src/assets/css src/assets/sass -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,213 @@
+.body {
+  background-color: #f6f7f8; }
+
+.body-pricing {
+  background-color: #f6f7f8;
+  width: 100%;
+  padding: 0px; }
+  .body-pricing .pricing-title .button-signup-title {
+    width: 170px; }
+  @media screen and (max-width: 992px) {
+    .body-pricing .table1 {
+      width: 500px; } }
+  @media screen and (max-width: 768px) {
+    .body-pricing .table1 {
+      width: 400px; } }
+  @media screen and (max-width: 576px) {
+    .body-pricing .table1 {
+      width: 300px; }
+    .body-pricing .pricing-card {
+      width: 85%;
+      margin-left: 50px; } }
+  .body-pricing .ready-signup {
+    background-image: url("../img/cloud.png");
+    width: 100%;
+    height: 380px;
+    text-align: center;
+    margin-top: -110px; }
+    .body-pricing .ready-signup h3 {
+      margin-top: 160px; }
+  .body-pricing table {
+    width: 700px; }
+    .body-pricing table thead tr {
+      vertical-align: middle; }
+  .body-pricing div.accordion {
+    margin-top: 80px;
+    width: 700px; }
+    .body-pricing div.accordion h2 button {
+      font-size: 20px; }
+
+.pricing-card {
+  width: 23em;
+  background-color: white;
+  border-radius: 40px;
+  margin: 20px; }
+  .pricing-card .email-numeric {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -10px; }
+  .pricing-card .extraemail-numeric {
+    margin-top: -10px;
+    font-size: 24px;
+    font-weight: bold; }
+    .pricing-card .extraemail-numeric svg {
+      width: 17px; }
+  .pricing-card .title-premium {
+    color: #939393; }
+    .pricing-card .title-premium svg {
+      width: 30px; }
+  .pricing-card .list-features li.yes {
+    background-image: url(./../img/icons/tick-green.svg);
+    list-style-type: none;
+    background-repeat: no-repeat;
+    padding-left: 1.75rem;
+    background-size: 21px;
+    font-size: 1rem;
+    text-align: left;
+    margin: 5px 0;
+    margin-top: 0px; }
+  .pricing-card .list-features li.no {
+    background-image: url(./../img/icons/no-grey.svg);
+    list-style-type: none;
+    background-repeat: no-repeat;
+    padding-left: 1.75rem;
+    background-size: 21px;
+    font-size: 1rem;
+    text-align: left;
+    margin: 5px 0;
+    margin-top: 0px;
+    color: darkgrey; }
+
+@media screen and (max-width: 576px) {
+  .card-body h4 {
+    margin-top: 0px; }
+  .pricing-accordion {
+    padding: 20px; }
+  .pricing-card .extraemail-numeric {
+    margin-top: 29px; } }
+
+body {
+  background-color: #f6f7f8; }
+
+.body-features {
+  background-color: #f6f7f8; }
+  .body-features h1 {
+    margin-top: 0px; }
+  .body-features .deliver {
+    padding: 7px;
+    text-align: center; }
+  .body-features .box-deliver {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 1px solid #d8c2c2;
+    margin-left: 15px; }
+  .body-features div.row {
+    margin-top: 50px; }
+  .body-features .control-sending img {
+    width: 50%; }
+  .body-features .control-sending .features-list-1 {
+    padding: 40px;
+    text-align: left; }
+    .body-features .control-sending .features-list-1 svg {
+      width: 35px;
+      margin-right: 10px; }
+  .body-features .part-box-deliver {
+    margin-top: -40px; }
+  .body-features .all-features {
+    padding: 20px; }
+    .body-features .all-features ul li a {
+      color: #111;
+      font-size: 20px; }
+    .body-features .all-features ul li img {
+      margin-right: 25px; }
+  .body-features .ready-signup {
+    background-image: url("../img/cloud.png");
+    width: 100%;
+    height: 380px;
+    text-align: center; }
+    .body-features .ready-signup h3 {
+      margin-top: 160px; }
+  .body-features .description-email {
+    background-color: #edf1f5; }
+    .body-features .description-email .features-list-1 {
+      padding: 40px;
+      text-align: left; }
+      .body-features .description-email .features-list-1 svg {
+        width: 35px;
+        margin-right: 10px; }
+    .body-features .description-email h2 {
+      margin-top: 40px; }
+    .body-features .description-email p.description {
+      margin-top: 30px;
+      padding: 30px; }
+    .body-features .description-email .features-list {
+      margin-bottom: 4px; }
+      .body-features .description-email .features-list svg {
+        width: 40px; }
+      .body-features .description-email .features-list h3 {
+        width: 330px;
+        margin-top: 5px;
+        display: contents; }
+      .body-features .description-email .features-list p {
+        margin-top: 10px; }
+    .body-features .description-email img.description-img {
+      width: 50%;
+      height: 100%; }
+
+@media screen and (max-width: 576px) {
+  .body-features .control-sending img {
+    width: 90%; }
+  .body-features .description-email img.description-img {
+    width: 80%; }
+  .all-features ul li img {
+    width: 30px;
+    margin-top: 15px;
+    margin-bottom: 16px; } }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.container-fluid {
+  background-color: #f6f7f8; }
+
+.header {
+  width: 100%;
+  background-color: #f6f7f8; }
+  .header .sidebar {
+    width: 57px;
+    position: absolute;
+    left: 5px;
+    cursor: pointer; }
+  .header .logo {
+    padding: 10px; }
+    .header .logo img {
+      width: 200px; }
+
+#sidebarmenu {
+  width: 220px;
+  height: 100%;
+  position: absolute;
+  left: -220px;
+  top: 0;
+  z-index: 1040; }
+  #sidebarmenu ul li a {
+    color: #16334e !important;
+    font-size: larger;
+    font-weight: 700; }
+
+.back-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 1038; }
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: brown; }

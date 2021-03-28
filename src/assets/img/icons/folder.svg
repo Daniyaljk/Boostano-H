@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="82px" viewBox="0 0 90 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="folder-copy" transform="translate(3.000000, 3.000000)" stroke="#000000" stroke-width="6">
+            <path d="M84,67.2 C84,71.8391919 80.2391919,75.6 75.6,75.6 L8.4,75.6 C3.7608081,75.6 0,71.8391919 0,67.2 L0,8.4 C0,3.7608081 3.7608081,0 8.4,0 L29.4,0 L37.8,12.6 L75.6,12.6 C80.2391919,12.6 84,16.3608081 84,21 L84,67.2 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
